@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_lines"
+    android:layout_margin="10sp"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/completed_tasks_type"
+            android:layout_width="0sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_marginLeft="20sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/completed_company_name"
+                android:layout_marginTop="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/completed_date_name"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:id="@+id/completed_pickup_name"
+                    android:layout_marginTop="5sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/white"/>
+
+                <TextView
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="1sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="HOURS"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/completed_container_id_label"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Container ID: "
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/completed_container_id_name"
+            android:layout_width="0sp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/completed_mto_label"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="MTO ID: "
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/completed_mto_name"
+            android:layout_width="0sp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/completed_origin_label"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Origin: "
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/completed_origin_name"
+            android:layout_width="0sp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/completed_destination_label"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Destination: "
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/completed_destination_name"
+            android:layout_width="0sp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
